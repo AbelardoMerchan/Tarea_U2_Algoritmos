@@ -65,7 +65,8 @@ public class GestorDeTareas {
 	    if (!tareasPendientes.isEmpty()) {
 	        return tareasPendientes.peek().getDescripcion(); // Devuelve la descripción de la tarea en la cima
 	    } else {
-	        return null; // Si no hay tareas pendientes, devuelve null
+	        return "No hay tareas pendientes."; // Mensaje si la pila está vacía
 	    }
 	}
+
 }

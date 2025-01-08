@@ -40,7 +40,7 @@ public class Principal {
         	   gestor.verTareasPendientes();
         	   break;
            case 5:
-        	   gestor.verProximaTarea();
+        	   System.out.println("Próxima tarea: " + gestor.verProximaTarea());
         	   break;
            case 6:
         	   System.out.println("Saliendo del sistema...");
